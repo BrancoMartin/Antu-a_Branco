@@ -1,0 +1,248 @@
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    background-color: #25e;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.encabezado{
+    margin: 2em;
+    flex-direction: column;
+    width: 100%;
+}
+
+body{
+    margin: auto;
+}
+header{
+    margin: auto;
+}
+
+.titulo{
+    flex-direction: column;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin-right: 2.7em;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+    background-color: rgb(25, 2, 48);
+    border-radius: 1em;
+    border: solid black;
+}
+.logo{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    font-family: fantasy;
+    background-color: rgb(25, 2, 48);
+    color: #ccc;
+    font-size: 30px;
+}
+.eslogan{
+    padding: 0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+    background-color: rgb(25, 2, 48);
+    color: #222;
+}
+
+.navs{
+    width: 100%;
+    margin: 3em;
+    justify-content: space-between;
+}
+input{
+    display: flex;
+    justify-content: flex-end;
+    border: solid rgba(40, 1, 85, 0.795);
+    border-radius: 10px;
+}
+input::placeholder{
+    color: #fff;
+    padding-left: 3px;
+}
+button{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.8em;
+    text-align: center;
+    padding: 7px 15px;
+    border-radius: 10px;
+    border: solid;
+    background-color: #320238;
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 4em;
+}
+
+.a{
+    color: rgb(18, 0, 39);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    display: inline-block;
+    text-decoration: none;
+    margin: 0.5em;
+}
+
+.imagen_insta{
+    width: 150px; 
+    height: auto;
+    background-size: auto;
+    height: 3em;
+    width: 3em;
+}
+.imagenes{
+    height: 20em;
+    width: 20em;
+    margin: 0.5em;
+    border-radius: 10px;
+    border: solid #222222bb;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    margin: 0.8em;
+}
+button{
+    width: 2.5em;
+    height: 1.5em;
+}
+.button{
+    flex-direction: end;
+}
+textarea{
+    width: 13em;
+    height: 3em;
+    border-color: #222;
+    margin: 0.4em;
+}
+textarea::placeholder{
+    color: #fff;
+}
+.textarea{
+    flex-direction: end;
+}
+
+main{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: auto;
+}
+p{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 2em;
+    margin: 0.5em;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13px;
+    margin: 2em;
+}
+.textoDeML{
+    height: 11em;
+    margin: 0;
+    padding: 0;
+}
+ol{
+    flex-direction: column;
+    margin-right: 80%;
+}
+li{
+    font-family: verdana, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 13px;
+}
+aside{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    padding-right: 35%;
+}
+article{
+    margin: auto;
+
+}
+
+.textButton{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-left: 55%;
+}
+
+.listas{
+    display: flex;
+    flex-direction: column;
+}
+ul{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.redes_sociales{
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    margin: 0.2em;
+}
+
+h3{
+    margin: 0.8em;
+}
+
+.tituloAside{
+    font-size: 17px;
+    color: #000;
+}
+
+.OtrosBlogs{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+.mapaDeSitio{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    margin-left: 45%;
+    padding: 0;
+    
+}
+a{
+    margin: 0;
+    padding: 0;
+}
